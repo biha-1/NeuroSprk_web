@@ -94,14 +94,14 @@ nav {
   letter-spacing: 0.02em;
 }
 .member-photo{
-width:120px;
-height:120px;
+width:90px;
+height:90px;
 border-radius:50%;
 object-fit:cover;
 display:block;
-margin:0 auto 20px auto;
-border:4px solid #6ea8ff;
-box-shadow:0 0 20px rgba(110,168,255,0.35);
+margin:0 auto 18px auto;
+border:3px solid rgba(79,163,255,0.45);
+box-shadow:0 0 18px rgba(79,163,255,0.25);
 }
 .menu a:hover {
   color: var(--text);
@@ -562,15 +562,20 @@ box-shadow:0 0 20px rgba(110,168,255,0.35);
 }
 
 /* ── Team Cards ── */
-.team-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 30px 24px;
-  text-align: center;
-  transition: all 0.3s;
-  position: relative;
-  overflow: hidden;
+.team-card{
+background:var(--surface);
+border:1px solid var(--border);
+border-radius:var(--radius);
+padding:28px 22px;
+text-align:center;
+transition:all 0.3s ease;
+position:relative;
+overflow:hidden;
+min-height:260px;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+align-items:center;
 }
 
 .team-card:hover {
